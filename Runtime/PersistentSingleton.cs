@@ -27,12 +27,12 @@ namespace BasicArchitecturalStructure
             }
         }
 
-        public virtual void Awake()
+        protected virtual void Awake()
         {
             InitializeSingleton();
         }
 
-        private void InitializeSingleton()
+        protected virtual void InitializeSingleton()
         {
             if (!Application.isPlaying) return;
 
