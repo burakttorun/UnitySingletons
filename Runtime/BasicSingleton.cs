@@ -35,9 +35,8 @@ namespace BasicArchitecturalStructure
         protected virtual void InitializeSingleton()
         {
             if (!Application.isPlaying) return;
-            {
-                instance = this as T;
-            }
+
+            instance = this as T;
         }
     }
 }
