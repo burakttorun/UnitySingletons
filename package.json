@@ -1,0 +1,13 @@
+{
+  "name": "com.githubbt.unitysingletons",
+  "version": "1.0.0",
+  "displayName": "Unity Singletons",
+  "description": "It is a package containing singleton structures.",
+  "unity": "2022.1",
+ 
+ 
+  "author": {
+    "name": "BT",
+    "url": "https://github.com/burakttorun"
+  }
+}
